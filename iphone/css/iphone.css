@@ -1,0 +1,144 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(/Travel/travel_picture/0043.gif);
+    }
+    
+    .iphone-real {
+        position: relative;
+        background-image: url(/iphone/iPhone-6S-Silver.png);
+        background-position: -100px;
+        left: 500px;
+        height: 500px;
+        width: 300px;
+        background-size: 500px;
+    }
+    
+    .iphone {
+        position: relative;
+        background-position: -200px;
+        top: 50px;
+        height: 700px;
+        width: 300px;
+        background-size: 500px;
+    }
+    
+    .iphone-body {
+        border: 4px solid #AAAE88;
+        position: absolute;
+        top: 10px;
+        left: 29px;
+        width: 240px;
+        height: 482px;
+        border-radius: 33px;
+        background-color: white;
+    }
+    
+    .iphone-speaker {
+        border: 2px solid #888B6D;
+        position: absolute;
+        top: 36px;
+        left: 132px;
+        width: 36px;
+        height: 5px;
+        border-radius: 30px;
+        background-color: black;
+    }
+    
+    .iphone-sensor {
+        border: 2px solid #777A5F;
+        position: absolute;
+        top: 35px;
+        left: 104px;
+        width: 6.5px;
+        height: 6.5px;
+        border-radius: 50px;
+        background-color: #333529;
+    }
+    
+    .iphone-camera {
+        border: 2px solid #333529;
+        position: absolute;
+        top: 20px;
+        left: 146px;
+        width: 9px;
+        height: 9px;
+        background-color: #AAAE88;
+        border-radius: 50%;
+        margin-bottom: 13px;
+    }
+    
+    .iphone-screen {
+        border: 1px solid;
+        position: absolute;
+        top: 55px;
+        left: 37px;
+        width: 224px;
+        height: 375px;
+        background-color: black;
+    }
+    
+    .btn {
+        border: 2px solid #AAAE88;
+        position: absolute;
+        top: 439px;
+        left: 132px;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    
+    .btn1 {
+        border: 1px solid #777A5F;
+        position: absolute;
+        top: 57px;
+        left: 28px;
+        width: 1px;
+        height: 19px;
+        border-radius: 12px 0px 0px 10px;
+        background-color: black;
+    }
+    
+    .btn2 {
+        border: 1px solid #777A5F;
+        position: absolute;
+        top: 100px;
+        left: 27px;
+        width: 1px;
+        height: 30px;
+        border-radius: 14px 0px 0px 10px;
+        background-color: black;
+    }
+    
+    .btn3 {
+        border: 1px solid #777A5F;
+        position: absolute;
+        top: 143px;
+        left: 27.5px;
+        width: 1px;
+        height: 30px;
+        border-radius: 10px 2px 2px 10px;
+        background-color: black;
+    }
+    
+    .btn4 {
+        border: 2px solid #777A5F;
+        position: absolute;
+        top: 100px;
+        left: 268px;
+        width: 1px;
+        height: 30px;
+        border-radius: 10px 14px 14px 10px;
+        background-color: black;
+    }
+    
+    footer {
+        font-size: 20px;
+        text-align: right;
+        font-weight: 600;
+        background-color: #333;
+        height: 10px;
+        clear: both;
+    }

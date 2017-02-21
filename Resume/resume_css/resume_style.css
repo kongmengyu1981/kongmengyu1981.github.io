@@ -1,0 +1,43 @@
+.table {
+    border: 3px solid black;
+    width: 100%;
+    height: 300px;
+}
+
+.table td {
+    border: 3px solid black;
+    color: black;
+}
+
+h1 {
+    width: 100%;
+    font-size: 50px;
+    color: black;
+    background-color: aqua;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.container-td {
+    font-size: 16px;
+    font-weight: 900;
+    vertical-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+.container-div {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}

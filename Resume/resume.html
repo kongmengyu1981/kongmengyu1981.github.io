@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Resume/resume_css/resume_style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        body {
+            position: relative;
+            background-color: #DCDCDC;
+        }
+        
+        #section1 {
+            padding-top: 50px;
+            height: 550px;
+        }
+        
+        #section2 {
+            padding-top: 50px;
+            height: 550;
+        }
+        
+        #section3 {
+            padding-top: 50px;
+            height: 550px;
+        }
+        
+        #section4 {
+            padding-top: 50px;
+            height: 550px;
+        }
+
+    </style>
+</head>
+<!--引用bootsrap的導覽列-->
+<!--必要設定：data-target:指向要監聽的導覽列-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!--導覽列類別名稱要與data-target中一致-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!--標題開始-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">個人履歷</a>
+            </div>
+            <!--標題結束-->
+
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <!--超連結連結到下面的段落ＩＤ-->
+                        <li><a href="/index.html">首頁</a></li>
+                        <li><a href="#section1">基本資料</a></li>
+                        <li><a href="#section2">教育程度</a></li>
+                        <li><a href="#section3">工作經驗</a></li>
+                        <li><a href="#section4">工作內容</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!--選單結束-->
+
+    <!--主題內容1開始-->
+    <div id="section1" class="container-fluid">
+        <h1>基本資料</h1>
+        <table class="table">
+            <tr>
+                <td colspan="6">
+                    <h2>個人簡介</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">姓名</td>
+                <td width="10%">余光明</td>
+                <td class="container-td" width="20%">性別</td>
+                <td width="10%">男</td>
+                <td colspan="2" rowspan="6" width="40%">
+                    <img src="">照片
+                </td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">生日</td>
+                <td width="5%">70.09.19</td>
+                <td class="container-td" width="20%">婚姻</td>
+                <td width="5%">未婚</td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">兵役狀況</td>
+                <td>96.10.16 役畢
+                </td>
+                <td class="container-td" width="20%">軍種</td>
+                <td width="5%">陸軍工兵</td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">籍貫</td>
+                <td width="5%">廣東省台山縣
+                </td>
+                <td class="container-td" width="20%">血型</td>
+                <td width="5%">O型</td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">通訊住址</td>
+                <td colspan="3">台北縣中和市景新街568號5樓</td>
+            </tr>
+            <tr>
+                <td class="container-td" width="20%">e-mail</td>
+                <td width="5%" colspan="3">sa114688@yahoo.com.tw</td>
+            </tr>
+        </table>
+    </div>
+    <!--主題內容1結束-->
+    <hr>
+    <!--主題內容2開始-->
+    <div id="section2" class="container-fluid">
+        <h1>教育程度</h1>
+        <table class="table">
+            <tr>
+                <td colspan="10">
+                    <h2>學歷</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="container-td" colspan="3">學校名稱</td>
+                <td class="container-td" colspan="2">科系</td>
+                <td class="container-td" colspan="2">修業期間</td>
+                <td class="container-td">學制</td>
+                <td class="container-td" colspan="2">畢/肄業</td>
+            </tr>
+            <tr>
+                <td class="container-td">專科</td>
+                <td colspan="2">華夏技術學院</td>
+                <td colspan="2">電機系</td>
+                <td colspan="2">87/9-93/6</td>
+                <td class="container-td">五年制</td>
+                <td colspan="2">畢業</td>
+            </tr>
+            <tr>
+                <td class="container-td">大學</td>
+                <td colspan="2">明志科技大學</td>
+                <td colspan="2">工業工程與管理系</td>
+                <td colspan="2">93/8-95/6</td>
+                <td class="container-td">二年制</td>
+                <td colspan="2">畢業</td>
+            </tr>
+        </table>
+    </div>
+    <!--主題內容2結束-->
+    <hr>
+    <!--主題內容3開始-->
+    <div id="section3" class="container-fluid">
+        <h1>工作經驗</h1>
+        <table class="table">
+            <td colspan="6">
+                <h2>經歷</h2>
+            </td>
+            <tr>
+                <td class="container-td" colspan="2">公司名稱</td>
+                <td class="container-td" colspan="2">職稱</td>
+                <td class="container-td" colspan="2">工作內容</td>
+            </tr>
+            <tr>
+                <td colspan="2">長庚生物科技</td>
+                <td colspan="2">門市 </td>
+                <td colspan="2">銷售保健產品、店務管理、倉庫管理。</td>
+            </tr>
+            <tr>
+                <td colspan="2">新軟系統股份有限公司</td>
+                <td colspan="2">軟韌體測試工程師</td>
+                <td colspan="2">排除客戶產品問題、 測試產品新功能(郵件伺服器、網路記錄器等)，及撰寫公司週報。</td>
+            </tr>
+            <tr>
+                <td colspan="2">尚上儀器股份有限公司</td>
+                <td colspan="2">維修工程師</td>
+                <td colspan="2">安裝儀器設備外，還要處理客戶在儀器異常的問題，以及提供客戶技術上的諮詢服務。</td>
+            </tr>
+            <tr>
+                <td colspan="2">信陽電腦科技有限公司</td>
+                <td colspan="2">駐點電腦硬體維修工程師</td>
+                <td colspan="2">執行電腦軟硬體各項設備的安裝外，還要處理客戶的電腦故障原因，以及提供客戶技術上的諮詢服務。</td>
+            </tr>
+        </table>
+    </div>
+    <!--主題內容3結束-->
+    <hr>
+    <!--主題內容4開始-->
+    <div id="section4" class="container-fluid">
+        <h1>自傳</h1>
+        <table class="table">
+            <tr>
+                <td>
+                    <h2>自傳</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        各位主管們，您們好! 我是余光明，手機號碼是0936390290。目前在信陽電腦科技有限公司擔任資訊MIS，駐點在矽谷辦公室，工作內容如下:1.執行電腦軟硬體各項設備的安裝。2.幫同仁找出並解決電腦故障原因，以及進行電腦穩定度測試，減少客戶當機的情況。3.處理主管交辦事項。除了工作技能外，曾在泰山職訓中心學習電機電子專業知識，我希望我能運用在學校所學及職訓所學的專業技能，所以希望能給我ㄧ個面試機會，讓我能發揮所長。
+                    </p>
+                    <div class=container-div>
+                        <a href="https://wujpkimo.github.io/277.html">WJP STUDIOS
+                        </a>
+                    </div>
+            </tr>
+        </table>
+    </div>
+    <!--主題內容4結束-->
+
+</body>
+
+</html>
